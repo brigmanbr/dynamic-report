@@ -1,5 +1,6 @@
 import pytest
-from utils import calculate_credits
+from utils.credit_calculator import calculate_credits
+from models import Message
 
 def test_calculate_credits_basic():
     message = "Test message with more words"

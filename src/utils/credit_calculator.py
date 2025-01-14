@@ -13,4 +13,4 @@ def calculate_credits(text: str) -> float:
     if ''.join(filter(str.isalnum, text)).lower() == ''.join(filter(str.isalnum, text)).lower()[::-1]:
         total_credits *= 2
 
-    return max(total_credits, 1.0)  # Ensure minimum of 1.0 credit
+    return max(total_credits, 1.0)

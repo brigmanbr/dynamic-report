@@ -10,8 +10,8 @@ services:
     ports:
       - "8000:8000"
     environment:
-      BASE_MESSAGES_URL: "http://private.test"
-      BASE_REPORTS_URL: "http://private.test"
+      BASE_MESSAGES_URL: "https://owpublic.blob.core.windows.net/tech-task/messages/current-period"
+      BASE_REPORTS_URL: "https://owpublic.blob.core.windows.net/tech-task/reports"
     command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 
   test:
@@ -22,6 +22,7 @@ services:
     volumes:
       - ./src:/app/src
     environment:
-      BASE_MESSAGES_URL: "http://private.test"
-      BASE_REPORTS_URL: "http://private.test"
+      PYTHONPATH: "/app/src"
+      BASE_MESSAGES_URL: "https://owpublic.blob.core.windows.net/tech-task/messages/current-period"
+      BASE_REPORTS_URL: "https://owpublic.blob.core.windows.net/tech-task/reports"
     command: ["pytest", "--maxfail=1", "--disable-warnings"]
