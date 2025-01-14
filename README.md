@@ -3,25 +3,38 @@
 This repository contains a FastAPI application that calculates credits for dynamic reports based on message content and report data.
 
 ## Folder Structure
-
+```
 project/
 ├── docker/
-│   ├── Dockerfile
+│   └── Dockerfile
+├── docs/
+│   ├── current-period.json
+│   ├── outcome.json
+│   ├── report-example.json
 ├── src/
 │   ├── __init__.py
 │   ├── main.py
-│   ├── routes.py
 │   ├── models.py
-│   ├── services.py
-│   ├── utils.py
+│   ├── config.py
+│   ├── repositories/
+│   │   ├── message_repository.py
+│   │   └── report_repository.py
+│   ├── routes/
+│   │   └── usage_routes.py
+│   ├── services/
+│   │   └── usage_service.py
+│   ├── utils/
+│   │   └── credit_calculator.py
 │   ├── tests/
 │   │   ├── test_calculate_credits.py
 │   │   ├── test_routes.py
-│   │   ├── test_services.py
+│   │   └── test_services.py
 │   ├── requirements.txt
-│   ├── requirements-test.txt
+│   └── requirements-test.txt
+├── terraform/
 ├── docker-compose.yml
-├── README.md
+└── README.md
+```
 
 
 ## What This Repository Does
@@ -32,19 +45,22 @@ This application:
 3. Returns a usage summary including message details and credit calculations
 
 ## Multi-Stage Dockerfile
-The Dockerfile in this project likely uses multi-stage builds, which allow for creating multiple environments within a single Dockerfile. The deployment target is an additional build stage specifically for deployment purposes. This approach helps optimize the final image size and improve security by separating the build environment from the runtime environment
+The Dockerfile in this project likely uses multi-stage builds, which allow for creating multiple environments within a single Dockerfile. 
+
+The deployment target is an additional build stage specifically for deployment purposes. This approach helps optimize the final image size and improve security by separating the build environment from the runtime environment
 
 ## How to Run the Program
 
 1. Ensure you have Docker and Docker Compose installed on your system.
 2. Clone this repository.
 3. Navigate to the project root directory.
-4. Update the docker-compose.yml file to have the URLS to fetch data.
-   BASE_MESSAGES_URL: "http://"
-   BASE_REPORTS_URL: "http://"
-5. Run the following command:
+4. Update the docker-compose.yml file to have the URLS to fetch data.  
+   `BASE_MESSAGES_URL: "http://****.test"`  
+   `BASE_REPORTS_URL: "http://****.test"`  
+5. Run the following command:  
    `docker-compose up --build`
-6. The API will be available at `http://localhost:8000`.
+6. The API will be available at:  
+   `http://localhost:8000`
 
 ## Available Endpoints
 
@@ -59,7 +75,7 @@ The following environment variables can be set in the `docker-compose.yml` file:
 
 ## How to Run Tests
 
-To run the tests, use the following command:
+To run the tests, use the following command:  
 `docker-compose run --rm app pytest`
 
 This command will:
@@ -72,10 +88,10 @@ This command will:
 
 For development purposes, you can keep a container running and execute tests multiple times:
 
-1. Start the container in detached mode:
+1. Start the container in detached mode:  
 `docker-compose up -d`
 
-2. Run unit tests:
+2. Run unit tests:  
 `docker-compose exec app pytest`
 
 ## Terraform Deployment (optional)
@@ -89,22 +105,22 @@ This project uses Terraform to deploy the AWS Lambda function and its associated
 
 ### Running Terraform
 
-1. **Navigate to the Terraform Directory**:
+1. **Navigate to the Terraform Directory**:  
 `cd ./terraform/`
-2. **Initialize Terraform**:
-   This command initializes the working directory containing the Terraform configuration files.
+2. **Initialize Terraform**:  
+   This command initializes the working directory containing the Terraform configuration files.  
 `terraform init`
-3. **Create a `prod.tfvars` File from the template and replace the values**:
-   Create a file named `prod.tfvars` in the `terraform` directory to specify environment-specific variables.
-3. **Create the workspace**:
+3. **Create a `prod.tfvars` File from the template and replace the values**:  
+   Create a file named `prod.tfvars` in the `terraform` directory to specify environment-specific variables.  
+3. **Create the workspace**:  
 `terraform workspace new prod`
-4. **Plan the Terraform Configuration**
-   This will show resources bein created on AWS
+4. **Plan the Terraform Configuration**  
+   This will show resources bein created on AWS  
 `terraform plan -var-file="prod.tfvars"`
-5. **Apply the Terraform Configuration**:
-   Use the following command to apply the configuration and create the resources defined in your Terraform files:
+5. **Apply the Terraform Configuration**:  
+   Use the following command to apply the configuration and create the resources defined in your Terraform files:  
 `terraform apply -var-file="prod.tfvars"`
-6. **Confirm Changes**:
+6. **Confirm Changes**:  
    When prompted, type `yes` to confirm that you want to create the resources.
 
 ### Understanding the Terraform Code
@@ -119,12 +135,12 @@ The Terraform code consists of several key components:
 
 ### Cleanup
 
-To remove all resources created by Terraform, you can run:
+To remove all resources created by Terraform, you can run:  
 `terraform destroy -var-file="prod.tfvars"`
 
 ## Contributing
 
-1. Fork the repository
+1. Fork the repository and learn more about terraform + lambda + python
 
 ## License
 
