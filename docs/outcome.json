@@ -1,0 +1,579 @@
+{
+  "usage": [
+    {
+      "id": 1000,
+      "timestamp": "2024-04-29T02:08:29.375Z",
+      "credits": 79,
+      "report_name": "Tenant Obligations Report"
+    },
+    {
+      "id": 1001,
+      "timestamp": "2024-04-29T03:25:03.613Z",
+      "credits": 5.2
+    },
+    {
+      "id": 1002,
+      "timestamp": "2024-04-29T07:27:34.985Z",
+      "credits": 3.95
+    },
+    {
+      "id": 1003,
+      "timestamp": "2024-04-29T10:22:13.926Z",
+      "credits": 2.9
+    },
+    {
+      "id": 1004,
+      "timestamp": "2024-04-29T11:54:18.493Z",
+      "credits": 3.7
+    },
+    {
+      "id": 1005,
+      "timestamp": "2024-04-29T12:31:00.539Z",
+      "credits": 79,
+      "report_name": "Tenant Obligations Report"
+    },
+    {
+      "id": 1006,
+      "timestamp": "2024-04-29T12:57:04.853Z",
+      "credits": 10.65
+    },
+    {
+      "id": 1007,
+      "timestamp": "2024-04-29T13:43:23.382Z",
+      "credits": 5.2
+    },
+    {
+      "id": 1008,
+      "timestamp": "2024-04-29T14:33:22.741Z",
+      "credits": 4.75
+    },
+    {
+      "id": 1009,
+      "timestamp": "2024-04-29T16:02:31.649Z",
+      "credits": 94,
+      "report_name": "Maintenance Responsibilities Report"
+    },
+    {
+      "id": 1010,
+      "timestamp": "2024-04-29T16:17:57.827Z",
+      "credits": 61,
+      "report_name": "Short Lease Report"
+    },
+    {
+      "id": 1011,
+      "timestamp": "2024-04-29T16:40:52.561Z",
+      "credits": 7.05
+    },
+    {
+      "id": 1012,
+      "timestamp": "2024-04-29T17:17:41.609Z",
+      "credits": 7.05
+    },
+    {
+      "id": 1013,
+      "timestamp": "2024-04-29T17:21:57.758Z",
+      "credits": 4.65
+    },
+    {
+      "id": 1014,
+      "timestamp": "2024-04-29T18:27:09.164Z",
+      "credits": 61,
+      "report_name": "Short Lease Report"
+    },
+    {
+      "id": 1015,
+      "timestamp": "2024-04-29T19:13:28.156Z",
+      "credits": 5
+    },
+    {
+      "id": 1016,
+      "timestamp": "2024-04-29T20:55:36.836Z",
+      "credits": 44,
+      "report_name": "Landlord Responsibilities Report"
+    },
+    {
+      "id": 1017,
+      "timestamp": "2024-04-30T00:14:33.053Z",
+      "credits": 7.05
+    },
+    {
+      "id": 1018,
+      "timestamp": "2024-04-30T00:51:22.652Z",
+      "credits": 4.55
+    },
+    {
+      "id": 1019,
+      "timestamp": "2024-04-30T02:00:17.660Z",
+      "credits": 1.95
+    },
+    {
+      "id": 1020,
+      "timestamp": "2024-04-30T03:37:47.073Z",
+      "credits": 61,
+      "report_name": "Short Lease Report"
+    },
+    {
+      "id": 1021,
+      "timestamp": "2024-04-30T03:51:56.696Z",
+      "credits": 17.2
+    },
+    {
+      "id": 1022,
+      "timestamp": "2024-04-30T04:52:41.870Z",
+      "credits": 5.6
+    },
+    {
+      "id": 1023,
+      "timestamp": "2024-04-30T05:13:54.540Z",
+      "credits": 6.5
+    },
+    {
+      "id": 1024,
+      "timestamp": "2024-04-30T10:55:11.189Z",
+      "credits": 4.2
+    },
+    {
+      "id": 1025,
+      "timestamp": "2024-04-30T11:02:20.467Z",
+      "credits": 3.6
+    },
+    {
+      "id": 1026,
+      "timestamp": "2024-04-30T11:44:33.048Z",
+      "credits": 18.05
+    },
+    {
+      "id": 1027,
+      "timestamp": "2024-04-30T12:20:25.431Z",
+      "credits": 5.3
+    },
+    {
+      "id": 1028,
+      "timestamp": "2024-04-30T13:03:55.172Z",
+      "credits": 6.55
+    },
+    {
+      "id": 1029,
+      "timestamp": "2024-04-30T14:11:24.978Z",
+      "credits": 44,
+      "report_name": "Landlord Responsibilities Report"
+    },
+    {
+      "id": 1030,
+      "timestamp": "2024-04-30T17:27:06.453Z",
+      "credits": 4
+    },
+    {
+      "id": 1031,
+      "timestamp": "2024-04-30T21:04:36.765Z",
+      "credits": 9.45
+    },
+    {
+      "id": 1032,
+      "timestamp": "2024-04-30T21:25:18.421Z",
+      "credits": 6.55
+    },
+    {
+      "id": 1033,
+      "timestamp": "2024-05-01T02:37:43.971Z",
+      "credits": 61,
+      "report_name": "Short Lease Report"
+    },
+    {
+      "id": 1034,
+      "timestamp": "2024-05-01T02:50:37.101Z",
+      "credits": 5.7
+    },
+    {
+      "id": 1035,
+      "timestamp": "2024-05-01T04:50:53.192Z",
+      "credits": 7.8
+    },
+    {
+      "id": 1036,
+      "timestamp": "2024-05-01T06:16:22.071Z",
+      "credits": 4
+    },
+    {
+      "id": 1037,
+      "timestamp": "2024-05-01T08:00:25.069Z",
+      "credits": 52,
+      "report_name": "Retail Lease Report"
+    },
+    {
+      "id": 1038,
+      "timestamp": "2024-05-01T08:43:57.531Z",
+      "credits": 8.05
+    },
+    {
+      "id": 1039,
+      "timestamp": "2024-05-01T09:37:22.494Z",
+      "credits": 3.15
+    },
+    {
+      "id": 1040,
+      "timestamp": "2024-05-01T09:59:31.407Z",
+      "credits": 5.05
+    },
+    {
+      "id": 1041,
+      "timestamp": "2024-05-01T13:04:40.784Z",
+      "credits": 44,
+      "report_name": "Landlord Responsibilities Report"
+    },
+    {
+      "id": 1042,
+      "timestamp": "2024-05-01T13:14:53.854Z",
+      "credits": 19.65
+    },
+    {
+      "id": 1043,
+      "timestamp": "2024-05-01T14:17:28.020Z",
+      "credits": 1.85
+    },
+    {
+      "id": 1044,
+      "timestamp": "2024-05-01T15:06:29.597Z",
+      "credits": 16.95
+    },
+    {
+      "id": 1045,
+      "timestamp": "2024-05-01T15:58:04.287Z",
+      "credits": 52,
+      "report_name": "Retail Lease Report"
+    },
+    {
+      "id": 1046,
+      "timestamp": "2024-05-01T16:25:37.311Z",
+      "credits": 94,
+      "report_name": "Maintenance Responsibilities Report"
+    },
+    {
+      "id": 1047,
+      "timestamp": "2024-05-01T18:47:14.227Z",
+      "credits": 3.65
+    },
+    {
+      "id": 1048,
+      "timestamp": "2024-05-01T20:55:40.301Z",
+      "credits": 11.35
+    },
+    {
+      "id": 1049,
+      "timestamp": "2024-05-01T21:31:23.772Z",
+      "credits": 4.75
+    },
+    {
+      "id": 1050,
+      "timestamp": "2024-05-01T22:01:49.704Z",
+      "credits": 1
+    },
+    {
+      "id": 1051,
+      "timestamp": "2024-05-01T22:43:41.093Z",
+      "credits": 10.8
+    },
+    {
+      "id": 1052,
+      "timestamp": "2024-05-02T01:26:16.946Z",
+      "credits": 52,
+      "report_name": "Retail Lease Report"
+    },
+    {
+      "id": 1053,
+      "timestamp": "2024-05-02T06:06:22.600Z",
+      "credits": 3.85
+    },
+    {
+      "id": 1054,
+      "timestamp": "2024-05-02T06:53:21.698Z",
+      "credits": 3.7
+    },
+    {
+      "id": 1055,
+      "timestamp": "2024-05-02T08:05:19.265Z",
+      "credits": 79,
+      "report_name": "Tenant Obligations Report"
+    },
+    {
+      "id": 1056,
+      "timestamp": "2024-05-02T08:20:25.371Z",
+      "credits": 1.85
+    },
+    {
+      "id": 1057,
+      "timestamp": "2024-05-02T09:33:59.362Z",
+      "credits": 20.85
+    },
+    {
+      "id": 1058,
+      "timestamp": "2024-05-02T12:03:50.589Z",
+      "credits": 4.6
+    },
+    {
+      "id": 1059,
+      "timestamp": "2024-05-02T14:47:11.531Z",
+      "credits": 4.45
+    },
+    {
+      "id": 1060,
+      "timestamp": "2024-05-02T16:01:17.193Z",
+      "credits": 6.6
+    },
+    {
+      "id": 1061,
+      "timestamp": "2024-05-02T16:15:38.838Z",
+      "credits": 12.95
+    },
+    {
+      "id": 1062,
+      "timestamp": "2024-05-02T17:51:49.106Z",
+      "credits": 79,
+      "report_name": "Tenant Obligations Report"
+    },
+    {
+      "id": 1063,
+      "timestamp": "2024-05-02T18:56:54.517Z",
+      "credits": 4.8
+    },
+    {
+      "id": 1064,
+      "timestamp": "2024-05-02T20:29:24.012Z",
+      "credits": 94,
+      "report_name": "Maintenance Responsibilities Report"
+    },
+    {
+      "id": 1065,
+      "timestamp": "2024-05-02T23:39:40.191Z",
+      "credits": 17.15
+    },
+    {
+      "id": 1066,
+      "timestamp": "2024-05-03T01:04:01.375Z",
+      "credits": 3.6
+    },
+    {
+      "id": 1067,
+      "timestamp": "2024-05-03T02:56:15.854Z",
+      "credits": 4.35
+    },
+    {
+      "id": 1068,
+      "timestamp": "2024-05-03T03:16:29.919Z",
+      "credits": 10.3
+    },
+    {
+      "id": 1069,
+      "timestamp": "2024-05-03T05:10:37.616Z",
+      "credits": 18.2
+    },
+    {
+      "id": 1070,
+      "timestamp": "2024-05-03T05:40:38.249Z",
+      "credits": 19.6
+    },
+    {
+      "id": 1071,
+      "timestamp": "2024-05-03T08:22:34.108Z",
+      "credits": 4.05
+    },
+    {
+      "id": 1072,
+      "timestamp": "2024-05-03T10:47:01.627Z",
+      "credits": 7
+    },
+    {
+      "id": 1073,
+      "timestamp": "2024-05-03T12:41:51.818Z",
+      "credits": 12.7
+    },
+    {
+      "id": 1074,
+      "timestamp": "2024-05-03T13:28:32.954Z",
+      "credits": 3.4
+    },
+    {
+      "id": 1075,
+      "timestamp": "2024-05-03T13:34:16.774Z",
+      "credits": 3.4
+    },
+    {
+      "id": 1076,
+      "timestamp": "2024-05-03T13:46:50.430Z",
+      "credits": 4.35
+    },
+    {
+      "id": 1077,
+      "timestamp": "2024-05-03T15:14:16.330Z",
+      "credits": 17.55
+    },
+    {
+      "id": 1078,
+      "timestamp": "2024-05-03T15:57:09.202Z",
+      "credits": 17.85
+    },
+    {
+      "id": 1079,
+      "timestamp": "2024-05-03T17:39:40.945Z",
+      "credits": 3.6
+    },
+    {
+      "id": 1080,
+      "timestamp": "2024-05-03T19:01:35.797Z",
+      "credits": 2.5
+    },
+    {
+      "id": 1081,
+      "timestamp": "2024-05-03T21:11:14.417Z",
+      "credits": 4.3
+    },
+    {
+      "id": 1082,
+      "timestamp": "2024-05-03T21:17:32.996Z",
+      "credits": 4.9
+    },
+    {
+      "id": 1083,
+      "timestamp": "2024-05-03T22:55:26.327Z",
+      "credits": 4.3
+    },
+    {
+      "id": 1084,
+      "timestamp": "2024-05-03T23:06:32.661Z",
+      "credits": 4.85
+    },
+    {
+      "id": 1085,
+      "timestamp": "2024-05-03T23:29:58.404Z",
+      "credits": 5.1
+    },
+    {
+      "id": 1086,
+      "timestamp": "2024-05-04T00:57:06.036Z",
+      "credits": 4.95
+    },
+    {
+      "id": 1087,
+      "timestamp": "2024-05-04T02:12:27.765Z",
+      "credits": 94,
+      "report_name": "Maintenance Responsibilities Report"
+    },
+    {
+      "id": 1088,
+      "timestamp": "2024-05-04T03:02:48.255Z",
+      "credits": 13.15
+    },
+    {
+      "id": 1089,
+      "timestamp": "2024-05-04T03:29:18.288Z",
+      "credits": 3
+    },
+    {
+      "id": 1090,
+      "timestamp": "2024-05-04T03:30:33.224Z",
+      "credits": 52,
+      "report_name": "Retail Lease Report"
+    },
+    {
+      "id": 1091,
+      "timestamp": "2024-05-04T04:19:49.852Z",
+      "credits": 20.1
+    },
+    {
+      "id": 1092,
+      "timestamp": "2024-05-04T05:05:14.148Z",
+      "credits": 10.6
+    },
+    {
+      "id": 1093,
+      "timestamp": "2024-05-04T06:06:40.023Z",
+      "credits": 79,
+      "report_name": "Tenant Obligations Report"
+    },
+    {
+      "id": 1094,
+      "timestamp": "2024-05-04T07:39:24.198Z",
+      "credits": 17.9
+    },
+    {
+      "id": 1095,
+      "timestamp": "2024-05-04T09:46:15.627Z",
+      "credits": 3.65
+    },
+    {
+      "id": 1096,
+      "timestamp": "2024-05-04T09:51:12.819Z",
+      "credits": 3.85
+    },
+    {
+      "id": 1097,
+      "timestamp": "2024-05-04T10:05:22.906Z",
+      "credits": 11.7
+    },
+    {
+      "id": 1098,
+      "timestamp": "2024-05-04T10:07:12.368Z",
+      "credits": 3.9
+    },
+    {
+      "id": 1099,
+      "timestamp": "2024-05-04T10:50:45.122Z",
+      "credits": 44,
+      "report_name": "Landlord Responsibilities Report"
+    },
+    {
+      "id": 1100,
+      "timestamp": "2024-05-04T10:57:44.389Z",
+      "credits": 3.85
+    },
+    {
+      "id": 1101,
+      "timestamp": "2024-05-04T11:01:33.644Z",
+      "credits": 94,
+      "report_name": "Maintenance Responsibilities Report"
+    },
+    {
+      "id": 1102,
+      "timestamp": "2024-05-04T13:26:50.191Z",
+      "credits": 44,
+      "report_name": "Landlord Responsibilities Report"
+    },
+    {
+      "id": 1103,
+      "timestamp": "2024-05-04T13:46:43.946Z",
+      "credits": 52,
+      "report_name": "Retail Lease Report"
+    },
+    {
+      "id": 1104,
+      "timestamp": "2024-05-04T14:18:20.137Z",
+      "credits": 2.1
+    },
+    {
+      "id": 1105,
+      "timestamp": "2024-05-04T14:29:23.690Z",
+      "credits": 4.5
+    },
+    {
+      "id": 1106,
+      "timestamp": "2024-05-04T15:12:36.875Z",
+      "credits": 2.85
+    },
+    {
+      "id": 1107,
+      "timestamp": "2024-05-04T15:18:56.481Z",
+      "credits": 6.9
+    },
+    {
+      "id": 1108,
+      "timestamp": "2024-05-04T17:21:17.645Z",
+      "credits": 1.8
+    },
+    {
+      "id": 1109,
+      "timestamp": "2024-05-04T18:23:31.165Z",
+      "credits": 61,
+      "report_name": "Short Lease Report"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    volumes:
+      - ./src:/app/src
+    ports:
+      - "8000:8000"
+    environment:
+      BASE_MESSAGES_URL: "http://private.test"
+      BASE_REPORTS_URL: "http://private.test"
+    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+
+  test:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: dev
+    volumes:
+      - ./src:/app/src
+    environment:
+      BASE_MESSAGES_URL: "http://private.test"
+      BASE_REPORTS_URL: "http://private.test"
+    command: ["pytest", "--maxfail=1", "--disable-warnings"]

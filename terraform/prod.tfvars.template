@@ -1,0 +1,6 @@
+environment     = "prod"
+vpc_id          = "vpc-xxxxxxxxxxxxx"
+private_subnets = { prod = ["subnet-xxxxxxxxxxxxx", "subnet-xxxxxxxxxxxxx", "subnet-xxxxxxxxxxxxx"] }
+security_groups = { prod = ["sg-xxxxxxxxxxxxx", "sg-xxxxxxxxxxxxx", "sg-xxxxxxxxxxxxx"] }
+route53_zone_id = "XXXXXXXXXXXXXXXI"
+domain_name     = "mydomain.com"
